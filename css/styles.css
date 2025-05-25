@@ -50,7 +50,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   text-decoration: underline;
 }
 
@@ -71,15 +71,17 @@ nav ul li a:hover{
 .hero::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(18, 18, 18, 0.6); 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 18, 18, 0.6);
   z-index: 0;
 }
 
 .hero-content {
   max-width: 800px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .hero h1 {
@@ -186,8 +188,8 @@ main li {
   margin-left: auto;
   margin-right: auto;
   animation: fadeInUp 1s ease 0.2s forwards;
-  list-style: none; 
-  padding-left: 0;     
+  list-style: none;
+  padding-left: 0;
 }
 
 main a {
@@ -198,8 +200,8 @@ main a {
   margin-left: auto;
   margin-right: auto;
   animation: fadeInUp 1s ease 0.2s forwards;
-  list-style: none; 
-  padding-left: 0;   
+  list-style: none;
+  padding-left: 0;
 }
 
 main a:hover {
@@ -228,14 +230,14 @@ main a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .image-link {
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 250px; 
+  width: 250px;
   padding: 8px 12px;
   background-color: #222;
   border-radius: 8px;
@@ -243,7 +245,7 @@ main a:hover {
   color: #eee;
   transition: background-color 0.3s ease;
   overflow: hidden;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .image-link:hover {
@@ -266,7 +268,7 @@ main a:hover {
   white-space: nowrap;
 }
 
-input{
+input {
   font-size: 14px;
   border-radius: 6px;
   line-height: 1.5;
@@ -276,20 +278,22 @@ input{
   background: #272727;
   display: block;
   height: 36px;
-  :hover {
-      border-color: #ccc;
-  }
-  :focus{
-      border-color: #9147ff;
-      background: #fff;
-  }
-}    
 
-.search-results{
-  position:absolute; 
+  :hover {
+    border-color: #ccc;
+  }
+
+  :focus {
+    border-color: #9147ff;
+    background: #fff;
+  }
+}
+
+.search-results {
+  position: absolute;
   background-color: #222222;
-  width: 200px; 
-  border-radius: 20px; 
+  width: 200px;
+  border-radius: 20px;
 }
 
 @keyframes fadeInUp {
@@ -297,6 +301,7 @@ input{
     opacity: 0;
     transform: translateY(12px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -316,4 +321,23 @@ input{
   .hero p {
     font-size: 1.5rem;
   }
+}
+
+.footer {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #25252565;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 0 20px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #9e9d9d;
+  display: inline-block;
 }
