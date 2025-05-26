@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  /*font-family: 'Orbitron', sans-serif;*/
   font-family: "Space Grotesk", sans-serif;
   background-color: #121212;
   color: #e0e0e0;
@@ -22,7 +21,7 @@ body {
 }
 
 nav {
-  background: rgba(42, 36, 42, 0.7);
+  background: rgb(40, 39, 40);
   position: fixed;
   top: 0;
   left: 0;
@@ -278,16 +277,15 @@ input {
   background: #272727;
   display: block;
   height: 36px;
-
-  :hover {
-    border-color: #ccc;
-  }
-
-  :focus {
-    border-color: #9147ff;
-    background: #fff;
-  }
 }
+
+input:hover {
+    border-color: #9A0F98;
+  }
+
+input:focus {
+    border-color: #EA0599;
+  }
 
 .search-results {
   position: absolute;
