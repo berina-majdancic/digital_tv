@@ -9,7 +9,7 @@ links.forEach(link => {
 });
 
 const data = [
-  { title: "Hstorija digitalne televizije", content: "istorija digitalne televizije prelazak sa analognog", url: "history.html" },
+  { title: "Historija digitalne televizije", content: "historija digitalne televizije prelazak sa analognog", url: "history.html" },
   { title: "Vrste digitalne televizije", content: "satelitska kablovska IPTV zemaljska", url: "types.html" },
   { title: "Tranzicija", content: "prelazak gašenje pretvarači", url: "transition.html" },
   { title: "Prednosti digitalne televizije", content: "bolji kvalitet više kanala", url: "benefits.html" },

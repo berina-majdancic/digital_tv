@@ -27,8 +27,9 @@ nav {
   left: 0;
   width: 100%;
   z-index: 10;
-  padding: 15px;
-  height: 55px;
+  padding: 5px 15px;
+  padding-top: 10px;
+  height: 3.3rem;
 }
 
 nav ul {
@@ -40,7 +41,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 5px 15px;
 }
 
 nav ul li a {
@@ -208,6 +209,7 @@ main a:hover {
 }
 
 @media (max-width: 480px) {
+
   .image-link {
     min-width: 130px;
     padding: 5px 8px;
@@ -268,6 +270,7 @@ main a:hover {
 }
 
 input {
+  margin-top: -7px;
   font-size: 14px;
   border-radius: 6px;
   line-height: 1.5;
@@ -280,17 +283,17 @@ input {
 }
 
 input:hover {
-    border-color: #9A0F98;
-  }
+  border-color: #9A0F98;
+}
 
 input:focus {
-    border-color: #EA0599;
-  }
+  border-color: #EA0599;
+}
 
 .search-results {
   position: absolute;
   background-color: #222222;
-  width: 200px;
+  max-width: 200px;
   border-radius: 20px;
 }
 
