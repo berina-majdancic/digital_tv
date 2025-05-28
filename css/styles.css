@@ -227,6 +227,7 @@ main a:hover {
   padding-right: 20px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .paragraph-text {
@@ -369,18 +370,6 @@ input:focus {
 
   .hero p {
     font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .paragraph {
-    flex-direction: column;
-  }
-
-  .paragraph-text,
-  .paragraph-image {
-    flex: 1 1 100%;
-    text-align: center;
   }
 }
 
