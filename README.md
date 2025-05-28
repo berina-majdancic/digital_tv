@@ -2,6 +2,9 @@
 
 A responsive and interactive webpage dedicated to the history and evolution of **Digital Television**. This project showcases how digital TV has transformed over the decades, featuring a clean user interface and dynamic functionality for an engaging browsing experience.
 
+🔗 **Live Demo:** [View the Digital TV Webpage](https://berina-majdancic.github.io/digital_tv/)
+
+
 ## 🌐 Overview
 
 This web project presents a detailed look into:
