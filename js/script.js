@@ -40,11 +40,20 @@ searchInput.addEventListener("keyup", function () {
       link.href = item.url;
       link.textContent = item.title;
       link.style.display = "block";
-      link.style.padding = "5px";
-      link.style.background = "rgba(46, 46, 46, 0.74)";
-      link.style.color = "#fff";
-      link.style.borderRadius = "10px";
       searchResults.appendChild(link);
+      searchResults.style.position = "absolute";
+      searchResults.style.top = "100%";
+      searchResults.style.left = "0";
+      searchResults.style.right = "0";
+      searchResults.style.backgroundColor = "#222";
+      searchResults.style.borderRadius = "8px";
+      searchResults.style.maxHeight = "200px";
+      searchResults.style.overflowY = "auto";
+      searchResults.style.zIndex = "100";
+      searchResults.style.padding = "5px";
+      searchResults.style.boxShadow = "0 2px 8px rgba(0, 0, 0, 0.5)";
+      searchResults.style.whiteSpace = "normal";
+      searchResults.style.backgroundColor = "rgb(60, 59, 60)";
     });
   }
 });
